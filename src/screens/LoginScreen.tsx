@@ -8,7 +8,7 @@ export default function LoginScreen() {
   const [password, setPassword] = useState('');
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#FFFFFF' }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
       <View style={styles.container}>
         <View style={styles.logoContainer}>
           <Image
